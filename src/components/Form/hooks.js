@@ -13,8 +13,6 @@ export const useHooks = () => {
     e.preventDefault()
 
     dispatch(checkUrl(url))
-
-    console.log(url)
   }
 
   return { url, handleChange, handleSubmit }
