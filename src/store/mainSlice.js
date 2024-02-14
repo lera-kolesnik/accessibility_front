@@ -33,7 +33,7 @@ export const checkUrl = (url) => async (dispatch) => {
     dispatch(urlCheckSuccessfull(data))
     console.log(data)
   } catch (e) {
-    dispatch(urlCheckError)
+    dispatch(urlCheckError())
   }
 }
 
