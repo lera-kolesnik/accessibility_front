@@ -14,13 +14,21 @@ export default function ListErrors() {
   if (status === 'loading') {
     return (
       <div className="loader-wrapper">
-        <div className="loader"></div>
+        <div className="loader">
+          <p className="visually-hidden">
+            Loading data
+          </p>
+        </div>
       </div>
     )
   }
 
   if (status === 'error') {
-    return <div className="error-message">Sorry, this url invalid!</div>
+    return (
+      <div className="error-message">
+        Sorry, this url invalid!
+      </div>
+    )
   }
 
   return (
