@@ -1,6 +1,6 @@
-## Проект дипломной работы:
+## Accessibility Checker
 
-Для запуска приложения выполните следующие команды
+To start the app, run the following commands:
 
 `npm install`
 
